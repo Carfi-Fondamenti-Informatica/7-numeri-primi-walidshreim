@@ -1,6 +1,3 @@
-int main() {
-    int n;
-    int check;
     cout << ("ENTER A NUMBER : ");
     cin >> n;
     check = primecheck(n, n / 2);
@@ -9,4 +6,3 @@ int main() {
     } else {
         cout << ("numero primo\n");
     }
-}
